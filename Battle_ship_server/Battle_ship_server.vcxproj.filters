@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\server">
+      <UniqueIdentifier>{ef581577-ae42-41e7-bd10-cfc96772b727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\server">
+      <UniqueIdentifier>{c82b55a1-d123-4102-910e-d2519a3a6d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\logic">
+      <UniqueIdentifier>{30335afc-13ad-4b89-b5fc-e6a90dd1e5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\logic">
+      <UniqueIdentifier>{45eacdb7-18f3-4f3d-84b8-3f461d7670b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server\main.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\GameServer.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\GameLogic.cpp">
+      <Filter>소스 파일\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="server\ClientSession.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\GameRoom.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server\GameServer.h">
+      <Filter>헤더 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\GameRoom.h">
+      <Filter>헤더 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ClientSession.h">
+      <Filter>헤더 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\GameLogic.h">
+      <Filter>헤더 파일\logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
